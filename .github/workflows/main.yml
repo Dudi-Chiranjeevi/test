@@ -8,7 +8,7 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   REGION: us-central1
-  REPOSITORY: my-nginx-repo
+  REPOSITORY: repo
   IMAGE_NAME: nginx-custom
   GKE_CLUSTER: my-gke-cluster
 
