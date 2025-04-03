@@ -10,7 +10,7 @@ env:
   REGION: us-central1
   REPOSITORY: repo
   IMAGE_NAME: react-app
-  GKE_CLUSTER: my-gke-cluster
+  GKE_CLUSTER: gke-cluster
 
 jobs:
   deploy:
